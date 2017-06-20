@@ -1,4 +1,5 @@
-cription = filter_input(INPUT_POST, 'product_description');
+<?php
+$product_description = filter_input(INPUT_POST, 'product_description');
 	$list_price = filter_input(INPUT_POST, 'list_price');
 		$discount_percent = filter_input(INPUT_POST,
 		'discount_percent');
